@@ -1,0 +1,13 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  @apply bg-white shadow p-4;
+}
+
+.footer {
+  @apply bg-white shadow p-4 mt-auto text-center;
+}
